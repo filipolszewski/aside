@@ -9,7 +9,7 @@ class AsideEngine {
 
     private final String asideRootPath;
 
-    public AsideEngine( String asideRootPath ) {
+    AsideEngine( String asideRootPath ) {
         this.asideRootPath = asideRootPath;
     }
 
