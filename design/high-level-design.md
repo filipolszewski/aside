@@ -14,7 +14,7 @@ This is why **Aside** primarly focuses on higher level of abstraction - starting
 
 **Aside** is a tool for enterprise 'competence management' used & embraced by techical employees instead of less-technical managers. It is structured around the codebase, not around project management tools. It is focused on principles developers recognize, understand and appreciate like KISS & DRY.
 
-**Aside does not** require additional work. Some kind of competence management is usually in place for every bigger system, but Aside provides a clear, simple platform for this proccess to happen **in the right place**. The desing is always there - big upfront, evolving iteratively or 'just happening as we go' - and Aside helps to keep in in place in developer friendly place.
+Some kind of competence management is usually in place for every bigger system, but Aside provides a clear, simple platform for this proccess to happen **in the right place**. The desing is always there - big upfront, evolving iteratively or 'just happening as we go' - and Aside helps to keep in in place in developer friendly place.
 
 _Design documentation_ aspect of Aside is the core idea, but the benefits of well organised & smart code documentation goes beyond just 'knowing what this thing does'. Aside provides additional (and optional!) tools for getting in way of the legacy chaos. First, perhaps most obvious benefit is the competence mapping possibility: the existing documentation can be analysed based on authors, time and completeness to provide insights into where your company's competences are and how are they distributed. Second example can be **the dictionary** feature, where concept explanations can be defined for parent node and be visible in all child nodes.
 
