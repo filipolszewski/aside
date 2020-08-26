@@ -48,10 +48,17 @@ In this example, root node is the NSLTR-project directory. It contains the aside
 
 The key tool is the CLI command that composes the aside_root.doc file out of the whole documentation structure. You can run `aside generate` to create such file. You can then browse your doc on the Aside's Web UI, you can call `aside ui` to run an app that allows you to browse the docs and navigate through the levels starting on the root node.
 
+### Documentation from tests
+
+Aside can be configured to generate additional documents for nodes based on plugins. Plugin for Java projects works by scanning the maven project and looking for JUnit5 tests with @DisplayName annotations. If a correct convention is kept in place, generated doc contains a list of modules/classes and their expectations/test scenarios.
+
+Plugin for given node and child nodes can be configured in the aside template for given node. The core of aside is language agnostic, meaning that as long as the plugin follows a given interface, aside can support documentation generation for that plugin.
+
 ### First functionalities
 
 - aside generation: reading the files and constructing the documentation object
 - aside ui the presents the documentation object
+- Java/Maven plugin for doc generation from tests
 - aside template ui for easier template creation
 
 ### Future functionalities
