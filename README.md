@@ -1,7 +1,7 @@
 # aside
 Aside - Anti-Legacy Codebase Documentation Tool
 
-Currently in setup/design stage. 
+Currently in setup/design stage. See the `./design` directory for current design perspectives.
 
 # Vision
 
@@ -21,13 +21,3 @@ Aside is a codebase documentation tool from the future. In the future, documenta
 - Flexibility and customization for self-organizing teams
 - DRY-ness: Documentation only where it's needed
 - Insightful measurements for data-driven competence management
-
-## Very early design/development plan:
-
-- Core service/script that generates documentation data for given Aside root directory and Aside configuration file
-- Data storage service that receives generated documentation data for given user & project
-- Query service for processed documentation data
-- First plugin: for Java (Maven & JUnit5) projects as PoC
-- Web Application for documentation discovery, navigation
-- Web Application for configuration file generator (for team-managed templates)
-- Git hook that runs Aside after each change on remote git repo 
